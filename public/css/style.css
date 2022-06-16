@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    text-align: center;
+}
+
+.select-container {
+    padding: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    border: #333 1px solid;
+}
+
+.select select {
+    padding: 0.5rem 1rem;   
+    width: 300px;
+    margin-bottom: 1rem;
+}
