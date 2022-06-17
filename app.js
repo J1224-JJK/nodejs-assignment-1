@@ -1,7 +1,6 @@
 var express = require('express');
 var path = require('path');
-var mysql = require('mysql2');
-// var mysql = require('mysql');
+var mysql = require('mysql');
 
 var indexRouter = require('./routes/index');
 
@@ -11,8 +10,7 @@ var dbConnectionPool = mysql.createPool({
     host: '127.0.0.1',
     port: 3306,
     user: 'root',
-    password: 'Ronnie@1993',
-    // database: 'test',
+    password: '',
     multipleStatements: true
 });
 
